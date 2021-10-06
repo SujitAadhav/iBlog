@@ -1,0 +1,22 @@
+.about-box{
+    height: 80vh;
+    width: 60vw;
+    border: 2px solid black;
+    margin: 12px auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.about-box h1{
+    text-align: center;
+    font-family: var(--font2);
+}
+
+.about-content{
+    padding: 18px;
+    font-family: var(--font2);
+    align-items: center;
+    justify-content: center;
+
+}

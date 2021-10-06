@@ -1,0 +1,28 @@
+.content{
+    height: 90vh;
+}
+
+.content::after{
+    content: "";
+    position: absolute;
+    background-image: url('../img/article-1.jpg');
+    background-size: cover;
+    height: inherit;
+    width: 100%;
+    opacity: 0.15;
+    z-index: -1;
+}
+
+.form-box > input, textarea{
+    width: 44vw;
+    outline: none;
+    padding: 3px;
+    border: 2px solid #060606;
+}
+
+.contact-content{
+    margin-left: 12px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
